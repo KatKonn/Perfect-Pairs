@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Food & Wine Pairing</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes|Quicksand" rel="stylesheet">
+	<link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://use.fontawesome.com/4ca8d568b3.js"></script>
+</head>
+<body>
+<div class="wrapper">
+<div class="background">
+	<header>
+		<h1>Perfect Pairs</h1>
+		<h2>Food <span> & </span> Wine  </h2>
+	</header>
+	<main>
+		<h3>What type of dish do you need help pairing?</h3>
+			<form action="">
+				<label for="Choose your dish"></label>
+					<select name="dropDown" id="menu">
+						<option value="select">Select your dish</option>
+						<option value="Meat">Meat</option>
+						<option value="Seafood">Seafood</option>
+						<option value="Pasta">Pasta</option>
+						<option value="Salad">Salad</option>
+						<option value="Cheese">Cheese</option>
+						<option value="Spicy">Spicy</option>
+					</select>
+			</form>
+			<div class="intro  fadeIn wrapper2"">
+				<p>Pairing food and wine can bring out the best qualities in each. It is an art, not a science, and therefore rigid rules need not always be followed. Who says you can't have red wine with fish? What's important is to consider the dominant characteristics of the dish as a whole. I have put together a guide of perfect pairings based on some common dish types.</p>
+			</div>
+		  	<div class="pair" id="fade">
+		    	<p class="paired wrapper2"></p>
+		    	<div class="arrow">
+	                <a href="#jump" class="smoothScroll">
+	                <i class="fa fa-angle-double-down" aria-hidden="true"> </i>
+	                </a>
+            	 </div>
+		    </div>
+</div> 
+
+	<div class="wineBackground">
+		<section class="clearfix">
+			<a name="jump"></a>
+			<div class="container" id="wines"></div>
+		</section>
+	</main>
+</div>
+   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
